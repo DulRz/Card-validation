@@ -10,6 +10,28 @@ const cerrar = document.getElementById('cerrar');
 const errorMensaje = document.getElementById('errorMsj');
 const mensajeValido = document.getElementById('msjValido');
 
+//para validar que todos los campos se llenen antes de verificar o validar la tarjeta
+document.addEventListener('DOMContentLoaded', function() {
+  const formulario = document.getElementById('formulario-tarjeta');
+  const botonValidar = document.getElementById('validar');
+  const mensajeError = document.getElementById('mensaje-error');
+
+  formulario.addEventListener('input', function() {
+    const camposRequeridos = Array.from(formulario.querySelectorAll('[required]'));
+    const algunoVacio = camposRequeridos.some(function(campo) {
+      return campo.value.trim() === '';
+    });
+
+    botonValidar.disabled = algunoVacio;
+
+    if (algunoVacio) {
+      mensajeError.style.display = 'block';
+    } else {
+      mensajeError.style.display = 'none';
+    }
+  });
+});
+
 //llamando al button VALIDAR por su ID
 document.getElementById('validar').addEventListener('click', function (event) {
   event.preventDefault();
