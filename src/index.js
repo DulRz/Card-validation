@@ -10,7 +10,6 @@ const cerrar = document.getElementById('cerrar');
 const errorMensaje = document.getElementById('errorMsj');
 const mensajeValido = document.getElementById('msjValido');
 
-
 //llamando al button VALIDAR por su ID
 document.getElementById('validar').addEventListener('click', function (event) {
   event.preventDefault();
@@ -184,9 +183,10 @@ ccvInput.addEventListener('input', function() {
   this.value = this.value.replace(/\D/g, '');
 });
 
-//ocultar la seccion recaudacion
+//ocultar la seccion recaudacion y se recargue la página
 document.getElementById('closeButton').addEventListener('click', () => {
   document.querySelector('.recaudacion').style.display = 'none';
+  location.reload()//recargar la pagina
 });
 
 console.log(validator);
