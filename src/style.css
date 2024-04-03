@@ -1121,7 +1121,7 @@ article img{
   background-color: rgba(72, 24, 102, 0.329);
   color: white;
   padding: 8px 0;
-  height: 100px;
+  height: 133px;
 }
 .container-validation {
   display: flex;
@@ -1274,7 +1274,7 @@ article img{
   }
 }
 
-/*--ESTILO DE LA PAG3--*/
+/*--ESTILO DE LA PAG GRACIAS--*/
 .main-gracias{
   display: flex;
   flex-wrap: wrap;
