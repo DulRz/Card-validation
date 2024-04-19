@@ -15,7 +15,23 @@ Para dirigirse a esta aplicación debe ingresar al siguiente link: <falta la pá
 
 ## 1.   INTRODUCCIÓN
 
-PetsFriends Wasi es una fundación sin fines de lucro que ayuda a los animales en situación de abandono. Es por ello que se creó este proyecto llamado DONATÓN "Huellitas Felices" con la finalidad de realizar una campaña de adopción y recaudación de fondos para ayudar a perros y gatos de la calle. Para ello, se realizaron diseños con editores de imagen en canva para el del logo de la fundación, el de flyer de la campaña DONATÓN y campañas de adopción.
+PetsFriends Wasi es una fundación sin fines de lucro que ayuda a los animales en situación de abandono. Es por ello que se creó este proyecto llamado DONATÓN "Huellitas Felices" con la finalidad de realizar una campaña de adopción y recaudación de fondos para ayudar a perros y gatos de la calle. Se creó una página que por medio de un formulario se haga uso del algoritmo de Luhn para verificar cualquier número de tarjeta de crédito, además de ocultar los 4 últimos dígitos de ese mismo número.
+
+El formato del formulario evaluará las siguientes condiciones:
+
+• Ningún input se encuentra vacío.
+
+• El input nombre no contiene números.
+
+• El input del número de tarjeta no contiene letras.
+
+• El input del número de tarjeta cumple con el algoritmo de Luhn.
+
+• El input del año es igual o mayor al año actual.
+
+• El input de CCV tiene una extensión de 3 digitos.
+
+Para ello, se realizaron diseños con editores de imagen en canva para el del logo de la fundación, el de flyer de la campaña DONATÓN y campañas de adopción.
 
 LOGO: (<https://raw.githubusercontent.com/DulRz/Card-validation/validation/src/images/logo.png>)
 
@@ -53,6 +69,6 @@ Para que tu donación también sea válida se evaluará lo siguiente:
 
 ## 5. Autora
 
-Nacdul V. Ramirez Zavala
+[Nacdul V. Ramirez Zavala](<https://github.com/DulRz>)
 
-[GitHub](<https://github.com/DulRz/Card-validation>)
+[GitHub del Proyecto](<https://github.com/DulRz/Card-validation>)
