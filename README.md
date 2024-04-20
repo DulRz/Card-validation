@@ -14,7 +14,8 @@ Para dirigirse a esta aplicación debe ingresar al siguiente link: <falta la pá
   * [4.1 Prototipo de baja fidelidad](#41-prototipo-de-baja-fidelidad)
   * [4.2 Prototipo de alta fidelidad](#42-prototipo-de-alta-fidelidad)
   * [4.3 Paleta de colores](#43-paleta-de-colores)
-* [5. Autora](#5-autora)
+* [5. Ejecucion local](#5-ejecución-local)
+* [6. Autora](#6-autora)
 
 ***
 
@@ -51,8 +52,8 @@ Para que tu donación sea válida el formulario evaluará lo siguiente:
 ## 1.2 INTERFAZ DEL USUARIO
 
 ![FORMULARIO](src/images/images-readme/formulario_donacion.PNG)
-![FORMULARIO](src/images/images-readme/tarjeta-invalida.PNG)
-![FORMULARIO](src/images/images-readme/tarjeta-verificada.PNG)
+![INVALID](src/images/images-readme/tarjeta-invalida.PNG)
+![VALID](src/images/images-readme/tarjeta-verificada.PNG)
 
 # 2. RESUMEN DEL PROYECTO
 
@@ -112,7 +113,37 @@ La página está diseñada con botones y texto guía que orientan a los usuarios
 
 ## 4.3 PALETA DE COLORES
 
-# 5. AUTORA
+![PALETA](src/images/images-readme/COLORES.png)
+
+# 5. EJECUCIÓN LOCAL
+
+Clonar el proyecto
+
+```bash
+  git clone https://github.com/DulRz/Card-validation
+```
+
+Instalar dependencias
+
+```bash
+  npm install
+```
+
+Ejecutar terminal
+
+```bash
+  npm run start
+```
+
+## Ejecución test
+
+Para ejecutar los test se debe ejecutar el siguiente comando:
+
+```bash
+  npm run test
+```
+
+# 6. AUTORA
 
 [Nacdul V. Ramirez Zavala](<https://github.com/DulRz>)
 
