@@ -14,7 +14,7 @@ Para dirigirse a esta aplicación debe ingresar al siguiente link: <falta la pá
   * [4.1 Prototipo de baja fidelidad](#41-prototipo-de-baja-fidelidad)
   * [4.2 Prototipo de alta fidelidad](#42-prototipo-de-alta-fidelidad)
   * [4.3 Paleta de colores](#43-paleta-de-colores)
-* [5. Ejecucion local](#5-ejecución-local)
+* [5. Planeacion del Proyecto](#5-planeación-del-proyecto)
 * [6. Autora](#6-autora)
 
 ***
@@ -48,6 +48,31 @@ Para que tu donación sea válida el formulario evaluará lo siguiente:
 "Tarjeta válida N°(número de la tarjeta enmascarado)1234"
 
 • Si la tarjeta es inválida, en la ventana aparecerá el siguiente mensaje: Tarjeta de Crédito Inválida, "Hubo un error con el pago. Por favor, inténtalo de nuevo."
+
+### Tips Proporcionados
+
+1. Antes que nada, asegúrate de tener un :pencil: editor de texto en
+   condiciones, algo como [VS Code](https://code.visualstudio.com/).
+2. Para ejecutar los comandos a continuación necesitarás una :shell:
+   [UNIX Shell](https://curriculum.laboratoria.la/es/topics/shell),
+   que es un programita que interpreta líneas de comando (command-line
+   interpreter) así como tener [git](https://curriculum.laboratoria.la/es/topics/scm/01-git)
+   instalado. Si usas un sistema operativo "UNIX-like", como GNU/Linux o MacOS,
+   ya tienes una _shell_ (terminal) instalada por defecto (y probablemente `git`
+   también). Si usas Windows puedes usar la versión completa de [Cmder](https://cmder.app/)
+   que incluye [Git bash](https://git-scm.com/download/win).
+3. Tus _coaches_ te compartirán un _link_ a un repo y te darán acceso de lectura.
+Debes realizar un :fork_and_knife:
+   [fork](https://help.github.com/articles/fork-a-repo/) del repo.
+4. :arrow_down: [Clona](https://help.github.com/articles/cloning-a-repository/)
+   tu _fork_ a tu computadora (copia local).
+5. 📦 Instala las dependencias del proyecto con el comando `npm install`. Esto
+   asume que has instalado [Node.js](https://nodejs.org/) (que incluye [npm](https://docs.npmjs.com/)).
+6. Si todo ha ido bien, deberías poder ejecutar las :traffic_light:
+   pruebas unitarias (unit tests) con el comando `npm test`.
+7. Para ver la interfaz de tu programa en el navegador, usa el comando
+   `npm start` para arrancar el servidor web y dirígete a
+   `http://localhost:5000` en tu navegador.
 
 ## 1.2 INTERFAZ DEL USUARIO
 
@@ -115,7 +140,16 @@ La página está diseñada con botones y texto guía que orientan a los usuarios
 
 ![PALETA](src/images/images-readme/COLORES.png)
 
-# 5. EJECUCIÓN LOCAL
+# 5. PLANEACIÓN DEL PROYECTO
+
+Semana 1:
+
+* Git: Instalación y configuración
+* Git: Control de versiones con git (init, clone, add, commit, status, push, pull, remote).
+* GitHub: Creación de cuenta y repos, configuración de llaves SSH.
+* Preparar la PC con los tips proporcionados.
+
+## EJECUCIÓN LOCAL
 
 Clonar el proyecto
 
@@ -135,13 +169,25 @@ Ejecutar terminal
   npm run start
 ```
 
-## Ejecución test
+### Ejecución test
 
 Para ejecutar los test se debe ejecutar el siguiente comando:
 
 ```bash
   npm run test
 ```
+
+Semana 2:
+
+* Estructura de HTML.
+* Implementar CSS.
+
+Semana 3:
+
+* Lograr: validator.isValid() y validator.maskify().
+* Correr pruebas unitarias satisfactoriamente.
+* Detalles finales.
+* Desplegar en GitHub Pages.
 
 # 6. AUTORA
 
