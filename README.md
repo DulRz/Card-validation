@@ -13,6 +13,7 @@ Para dirigirse a esta aplicación debe ingresar al siguiente link: <falta la pá
 * [4. Diseño](#4-diseño)
   * [4.1 Prototipo de baja fidelidad](#41-prototipo-de-baja-fidelidad)
   * [4.2 Prototipo de alta fidelidad](#42-prototipo-de-alta-fidelidad)
+  * [4.3 Paleta de colores](#43-paleta-de-colores)
 * [5. Autora](#5-autora)
 
 ***
@@ -34,7 +35,7 @@ Para que tu donación sea válida el formulario evaluará lo siguiente:
 
 • El input del año es igual o mayor al año actual.
 
-• El input de CCV tiene una extensión de 3 digitos y debe tener la opción de mostrar u ocultar dígitos simulando una contaseña.
+• El input de CCV tiene una extensión de 3 dígitos y debe tener la opción de mostrar u ocultar dígitos simulando una contaseña.
 
 • La tarjeta se validará a través de la función isValid, en la que se aplicará el algoritmo de Luhn.
 
@@ -61,25 +62,25 @@ La aplicación consta de cuatro vistas. En la primera, en modo pc se presenta un
 
 Bienvenido a DONATÓN "Huellitas Felices", una campaña dedicada a la adopción y **recaudación de fondos** para ayudar a perros y gatos de la calle. Nuestro objetivo es ofrecer una experiencia de usuario conmovedora y satisfactoria que inspire a la acción y el apoyo a nuestra noble causa. A continuación, destacamos cómo buscamos involucrar a nuestros usuarios:
 
-### Conexión emocional
+## Conexión emocional
 
 Nos esforzamos por crear una conexión emocional instantánea al presentar imágenes conmovedoras de los animales que esperan ser adoptados. Cada fotografía captura la esencia única de estos perros y gatos, mostrando su personalidad y su deseo de encontrar un hogar amoroso. Creemos que al ver estas imágenes, nuestros usuarios sentirán empatía y compasión, lo que los motivará a participar en nuestra campaña de adopción y recaudación de fondos para ayudar a estos animales necesitados.
 
-### Información y acción
+## Información y acción
 
 Nuestra plataforma proporciona información detallada sobre el proceso de adopción, cómo pueden hacer donaciones monetarias y cómo participar en eventos de recaudación de fondos. Queremos que nuestros usuarios se sientan capacitados para tomar medidas concretas para ayudar a los animales necesitados después de visitar nuestro sitio web.
 
-### Interacción y participación
+## Interacción y participación
 
 Invitamos a los usuarios a formar parte de nuestro equipo y a contribuir activamente a nuestra misión. Creemos que al unirnos y trabajar juntos, podemos marcar la diferencia en la vida de los animales necesitados y hacer del mundo un lugar mejor para ellos.
 
-### Facilidad de uso y accesibilidad
+## Facilidad de uso y accesibilidad
 
 Nos comprometemos a ofrecer una experiencia de usuario fácil y accesible para todos. Nuestra interfaz ha sido diseñada pensando en la usabilidad, asegurando que los usuarios puedan navegar sin problemas por nuestro sitio web y encontrar la información que necesitan de manera rápida y sencilla.
 
 Creemos que al enfocarnos en estos aspectos clave de la experiencia de usuario, podemos crear un espacio en línea que inspire a nuestros usuarios a unirse a nuestra misión de ayudar a los perros y gatos de la calle y hacer del mundo un lugar mejor para ellos.
 
-### Impacto de las donaciones
+## Impacto de las donaciones
 
 También compartimos imágenes de las campañas y obras que se realizan con el dinero recaudado. Desde eventos de adopción hasta proyectos de esterilización y cuidado médico, mostramos visualmente cómo las donaciones de nuestros generosos colaboradores se traducen en acciones concretas que benefician a los animales y a nuestra comunidad en general. Queremos que nuestros usuarios vean el impacto directo de sus contribuciones y se sientan orgullosos de formar parte de nuestra causa.
 
@@ -91,7 +92,7 @@ Se realizaron diseños con editores de imagen en canva para el del logo de la fu
 
 [FLYER DE LA CAMPAÑA](<https://raw.githubusercontent.com/DulRz/Card-validation/validation/src/images/flyer.png>)
 
-#### FLYERS DE ADOPCIÓN
+## FLYERS DE ADOPCIÓN
 
 [FLYER 1](<https://raw.githubusercontent.com/DulRz/Card-validation/validation/src/images/adopt5.jpeg>)
 
@@ -101,11 +102,15 @@ Se realizaron diseños con editores de imagen en canva para el del logo de la fu
 
 ## 4.1 PROTOTIPO DE BAJA FIDELIDAD
 
-Se realizo la maquetacion de baja fidelidad teniendo en consideracion que la interfaz debe de ser muy sencilla para ayudar a agilizar la donación:
+Se ha realizado la maquetación de baja fidelidad teniendo en consideración que la interfaz debe ser muy sencilla para agilizar el proceso de donación. El diseño simula una página web real que incluye no solo la interfaz de donación (Donation), sino también otras secciones importantes como: Inicio (Home), Adopta (Adopt), Gracias y Recaudación.
+
+La página está diseñada con botones y texto guía que orientan a los usuarios, incluso si son nuevos. Estos elementos están estratégicamente ubicados para proporcionar una experiencia intuitiva y sin problemas, lo que permite a cualquier usuario comprender y utilizar la página de manera efectiva desde el primer momento.
 
 ## 4.2 PROTOTIPO DE ALTA FIDELIDAD
 
 [FIGMA](<https://raw.githubusercontent.com/DulRz/Card-validation/validation/src/images/logo.png>)
+
+## 4.3 PALETA DE COLORES
 
 # 5. AUTORA
 
