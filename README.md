@@ -21,7 +21,7 @@ Para dirigirse a esta aplicación debe ingresar al siguiente link: <falta la pá
 
 # 1. INTRODUCCIÓN
 
-Este proyecto consiste en desarrollar una página web que permita verificar o validar por medio de un formulario cualquier número de tarjeta de crédito empleando el Algoritmo de Luhn.
+Este proyecto consiste en desarrollar una página web responsiva que permita verificar o validar por medio de un formulario cualquier número de tarjeta de crédito empleando el Algoritmo de Luhn.
 Para ello, diseñé una web llamada PetsFriends Wasi, la cual es una simulación de una página de una fundación sin fines de lucro que ayuda a los animales en situación de abandono o maltrato.
 
 ## 1.1 APLICACIÓN DEL PROYECTO
@@ -179,15 +179,23 @@ Para ejecutar los test se debe ejecutar el siguiente comando:
 
 Semana 2:
 
-* Estructura de HTML.
+* Estructura de HTML de toda la web.
 * Implementar CSS.
 
 Semana 3:
 
 * Lograr: validator.isValid() y validator.maskify().
 * Correr pruebas unitarias satisfactoriamente.
-* Detalles finales.
+* README.
 * Desplegar en GitHub Pages.
+
+### Tecnologías utilizadas
+
+Este sitio web fue construido utilizando las siguientes tecnologías:
+
+* HTML5 y CSS3 para marcado y estilo.
+* JavaScript para interactividad y actualizaciones dinámicas.
+* Módulos ES6 para organización de código modular
 
 # 6. AUTORA
 
