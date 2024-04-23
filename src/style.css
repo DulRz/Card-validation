@@ -677,7 +677,7 @@ height: auto;
   /*-- como rotamos la posición de flexbox de horizontal a vertical, debemos de invertir el alineado con el aling items center--*/
   /*-- por eso utilizamos el align porque debemos invertir el alineado centrado a horizontal--*/
   align-items: center;
-  padding-top: 3em;
+  padding-top: 4em;
 }
 .clearfix::after {
   content: "";
@@ -848,7 +848,7 @@ height: auto;
   color: #242424;
   width: 90%;
   max-width: 600px;
-  padding: 125px 30px 15px 30px;
+  padding: 124px 30px 10px 30px;
   border-radius: 10px;
   position: relative;
   top: -154px;
@@ -875,7 +875,7 @@ height: auto;
   font-size: 0.95em;
   height: 30px;
   width: 100%;
-  padding: 1px 15px;
+  padding: 1px 12px;
   border-radius: 5px;
   cursor: pointer;
   font-family: system-ui;
