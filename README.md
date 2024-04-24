@@ -112,9 +112,9 @@ También compartimos imágenes de las campañas y obras que se realizan con el d
 
 # 4. DISEÑO
 
-Se realizaron diseños con editores de imagen en canva para el del logo de la fundación, el de flyer de la campaña DONATÓN y campañas de adopción.
+Se realizaron diseños con editores de imagen en canva para el del logo de la fundación, el de flyer de la campaña DONATÓN y de adopción.
 
-[LOGO](<https://raw.githubusercontent.com/DulRz/Card-validation/validation/src/images/logo.png>)
+[LOGO](<https://github.com/DulRz/Card-validation/blob/validation/src/images/logo.png?raw=true>)
 
 [FLYER DE LA CAMPAÑA](<https://raw.githubusercontent.com/DulRz/Card-validation/validation/src/images/flyer.png>)
 
