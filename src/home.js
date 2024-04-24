@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Evitar que el formulario se envíe automáticamente
     event.preventDefault();
 
-    // Obtener la fecha de nacimiento ingresada por el usuario
+    // Obtener la fecha de nacimiento
     const birthday = new Date(document.getElementById('hb').value);
 
     // Calcular la edad basada en la fecha de nacimiento
