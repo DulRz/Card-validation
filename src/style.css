@@ -1105,7 +1105,7 @@ article img{
   content: '×'; /* Contenido para la 'x' */
 }
 .close-recaudacion::after {
-  display: none; /* Oculta la pseudo-clase ::after */
+  display: none;
 }
 
 /*footer especial para la PAG VALIDAR DONATION*/
@@ -1265,7 +1265,7 @@ article img{
   }
 }
 
-/*--ESTILO DE LA PAG GRACIAS--*/
+/*PAG GRACIAS*/
 .main-gracias{
   display: flex;
   flex-wrap: wrap;
@@ -1390,7 +1390,7 @@ article img{
   }
 }
 
-/*-- estilos de los footers de adopt y gracias--*/
+/*footers de adopt y gracias*/
 .footer {
   width: 100%;
   background-color: #c3a8d5;
