@@ -7,13 +7,13 @@ Para dirigirse a esta aplicación debe ingresar al siguiente link: <falta la pá
 
 * [1. Introduccion](#1-introducción)
   * [1.1 Aplicacion del proyecto](#11-aplicación-del-proyecto)
-  * [1.2 Intefaz del usuario](#12-interfaz-del-usuario)
 * [2. Resumen del Proyecto](#2-resumen-del-proyecto)
 * [3. Experiencia de usuario](#3-experiencia-de-usuario)
 * [4. Diseño](#4-diseño)
-  * [4.1 Prototipo de baja fidelidad](#41-prototipo-de-baja-fidelidad)
-  * [4.2 Prototipo de alta fidelidad](#42-prototipo-de-alta-fidelidad)
-  * [4.3 Paleta de colores](#43-paleta-de-colores)
+  * [4.1 Intefaz del usuario](#41-interfaz-del-usuario)
+    * [4.1.1 Prototipo de baja fidelidad](#411-prototipo-de-baja-fidelidad)
+    * [4.1.2 Prototipo de alta fidelidad](#412-prototipo-de-alta-fidelidad)
+  * [4.2 Paleta de colores](#42-paleta-de-colores)
 * [5. Planeacion del Proyecto](#5-planeación-del-proyecto)
 * [6. Autora](#6-autora)
 
@@ -74,12 +74,6 @@ Debes realizar un :fork_and_knife:
    `npm start` para arrancar el servidor web y dirígete a
    `http://localhost:5000` en tu navegador.
 
-## 1.2 INTERFAZ DEL USUARIO
-
-![FORMULARIO](src/images/images-readme/formulario_donacion.PNG)
-![INVALID](src/images/images-readme/tarjeta-invalida.PNG)
-![VALID](src/images/images-readme/tarjeta-verificada.PNG)
-
 # 2. RESUMEN DEL PROYECTO
 
 La aplicación consta de cuatro vistas. En la primera, en modo pc se presenta un breve mensaje de bienvenida y al cerrar esa ventana podrás ver el flyer de la campaña de donación. Si ingresas de modo celular, el mensaje de bienvenida aparece debajo del flyer. La segunda, encontrarás un texto que incentiva a la adopción y a la no compra de mascotas, además se presenta un formulario para poder adoptar, el único requisito es llenar todos los campos y ser mayor de edad para que el envío de la información sea válida. Al dar click en el botón SEND te redigirá a la tercera vista donde se te agradece por considerar la posibilidad de adoptar, luego se presentan algunas mascotas disponibles en el albergue y en la parte final de la vista hay un breve párrafo y un botón que te invita a donar a la fundación. Al dar click en el botón DONATE, cuarta y última vista, se recalca cuán importante es para la fundación recaudar fondos de manea monetaria y también cualquier tipo de apoyo, ya sea con comida, ropa para nuestras mascotas, productos de limpieza, entre otros, para cuidar a nuestros animales en el albergue y para los que seguiremos rescatando a futuro. Para poder donar se debe llenar un formulario, todos los campos deben ser obligatoriamente llenados para poder validar la tarjeta. Si en caso tu tarjeta es inválida, retornará una mini ventana avisándote que hubo un error en el pago y al dar click en CLOSE, la página automáticamente se volverá a recargar. Por el contrario, si tu tarjeta es válida aparece otra mini ventana con el mensaje donde dice que la donación se realizó con éxito y al dar click en el botón CLOSE, aparecerá sobre esta vista, una ventana que cubre toda la página con imágenes y breves párrafos donde se muestra qué es lo que se hace con el dinero recaudado. Al terminar de leer esta sección, con el botón "X" podrás cerrar y la vista DONATE se volverá a recargar.
@@ -90,7 +84,7 @@ Bienvenido a DONATÓN "Huellitas Felices", una campaña dedicada a la adopción 
 
 ## Conexión emocional
 
-Nos esforzamos por crear una conexión emocional instantánea al presentar imágenes conmovedoras de los animales que esperan ser adoptados. Cada fotografía captura la esencia única de estos perros y gatos, mostrando su personalidad y su deseo de encontrar un hogar amoroso. Creemos que al ver estas imágenes, nuestros usuarios sentirán empatía y compasión, lo que los motivará a participar en nuestra campaña de adopción y recaudación de fondos para ayudar a estos animales necesitados.
+La iniciativa se centra en generar una conexión emocional instantánea al presentar imágenes conmovedoras y tiernas de nuestros rescatados que buscan encontrar un hogar amoroso. La idea es que al ver estas imágenes, los usuarios sientan empatía y compasión que los impulse a participar en la campaña de adopción y recaudación de fondos para ayudar a más animales necesitados.
 
 ## Información y acción
 
@@ -114,7 +108,7 @@ También compartimos imágenes de las campañas y obras que se realizan con el d
 
 Se realizaron diseños con editores de imagen en canva para el del logo de la fundación, el de flyer de la campaña DONATÓN y de adopción.
 
-[LOGO](<https://github.com/DulRz/Card-validation/blob/validation/src/images/logo.png?raw=true>)
+![LOGO](src/images/logo.png)
 
 [FLYER DE LA CAMPAÑA](<https://raw.githubusercontent.com/DulRz/Card-validation/validation/src/images/flyer.png>)
 
@@ -126,17 +120,29 @@ Se realizaron diseños con editores de imagen en canva para el del logo de la fu
 
 [FLYER 3](<https://raw.githubusercontent.com/DulRz/Card-validation/validation/src/images/adopt2.jpeg>)
 
-## 4.1 PROTOTIPO DE BAJA FIDELIDAD
+## 4.1 INTERFAZ DEL USUARIO
+
+### 4.1.1 PROTOTIPO DE BAJA FIDELIDAD
 
 Se ha realizado la maquetación de baja fidelidad teniendo en consideración que la interfaz debe ser muy sencilla para agilizar el proceso de donación. El diseño simula una página web real que incluye no solo la interfaz de donación (Donation), sino también otras secciones importantes como: Inicio (Home), Adopta (Adopt), Gracias y Recaudación.
 
 La página está diseñada con botones y texto guía que orientan a los usuarios, incluso si son nuevos. Estos elementos están estratégicamente ubicados para proporcionar una experiencia intuitiva y sin problemas, lo que permite a cualquier usuario comprender y utilizar la página de manera efectiva desde el primer momento.
 
-## 4.2 PROTOTIPO DE ALTA FIDELIDAD
+### 4.1.2 PROTOTIPO DE ALTA FIDELIDAD
 
-[FIGMA](<https://raw.githubusercontent.com/DulRz/Card-validation/validation/src/images/logo.png>)
+![BIENVENIDA](src/images/images-readme/bienvenida.PNG)
+![HOME](src/images/images-readme/home.PNG)
+![ADOPTA1](src/images/images-readme/adopt1.PNG)
+![ADOPTA2](src/images/images-readme/adopt2.PNG)
+![GRACIAS1](src/images/images-readme/gracias1.PNG)
+![GRACIAS2](src/images/images-readme/gracias2.PNG)
+![FORMULARIO](src/images/images-readme/formulario_donacion.PNG)
+![INVALID](src/images/images-readme/tarjeta-invalida.PNG)
+![VALID](src/images/images-readme/tarjeta-verificada.PNG)
+![RECAUDACIÓN1](src/images/images-readme/recaudación1.PNG)
+![RECAUDACIÓN2](src/images/images-readme/recaudación2.PNG)
 
-## 4.3 PALETA DE COLORES
+## 4.2 PALETA DE COLORES
 
 ![PALETA](src/images/images-readme/COLORES.png)
 
@@ -179,13 +185,18 @@ Para ejecutar los test se debe ejecutar el siguiente comando:
 
 Semana 2:
 
+* Prototipos de baja y alta fidelidad.
+* Test de Usabilidad
 * Estructura de HTML de toda la web.
-* Implementar CSS.
 
 Semana 3:
 
+* Implementar CSS.
 * Lograr: validator.isValid() y validator.maskify().
 * Correr pruebas unitarias satisfactoriamente.
+
+Semana 4:
+
 * README.
 * Desplegar en GitHub Pages.
 
