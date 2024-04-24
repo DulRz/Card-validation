@@ -1,5 +1,5 @@
 /* eslint-disable no-console */
-//ALGORITMO DE LUHN
+//PASOS PARA EL ALGORITMO DE LUHN
 // 1. nombrar la variable NUMERO DE TARJETA
 // 2. invertir el orden de los digitos
 // 3. multiplica *2 digitos pares
