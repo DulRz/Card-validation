@@ -23,14 +23,14 @@ nav ul li a{
   text-decoration: none;
 }
 nav ul li a:hover{
-  background-color: #ff10afbd;
+  background-color: #ff0fafbd;
   color: white;
 }
 nav ul li a:active{
-  background-color: #A03CC1;
+  background-color:  #48186654;
 }
 nav ul li a.donate-link:link, a.donate-link:visited{
-  background-color: #A03CC1;
+  background-color: #48186654;
   padding: 10px;
   color: white;
 }
@@ -100,8 +100,8 @@ width: auto;
   left: 0;
   width: 100%;
   padding: 0.3em 0;
-  background-color: #4818665b;
-  text-shadow: 3px 3px 4px #252525a0;
+  background-color: #2e014b85;
+  text-shadow: 2px 2px 10px #252525a0;
   color: white;
   font-family: system-ui;
   z-index: 3; /* Asegúrate de que el z-index del footer sea mayor que el del contenedor de la imagen */
@@ -117,7 +117,7 @@ width: auto;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #44003ea4;
+  background-color:  #2e014b85;
   z-index: 9999;
 }
 .popup-content {
@@ -206,7 +206,7 @@ color:  #ff10afbd;
   .texto-bienvenida{
     width: 70%;
     margin-bottom: 20px;
-    color: #242424;
+    color: #27171F;
     padding-top: 20px;
   }
   .texto-bienvenida .welcome{
@@ -227,8 +227,6 @@ color:  #ff10afbd;
   .footer-home {
     text-align: center;
     position: fixed;
-    background-color: #4510647c;
-    text-shadow: 0.1em 0.1em 0.3em #ff10afbd;
     font-size: 0.63em;
   }
   .popup-home{
@@ -264,7 +262,8 @@ color:  #ff10afbd;
   left: 0;
   justify-content: flex-start;
   align-items: center;
-  border-bottom: 5px solid  #A03CC1;
+  border-top:  4px solid  #C3A8D5;
+  border-bottom: 4px solid   #C3A8D5;
 }
 .barra-general{
   cursor: pointer;
@@ -283,7 +282,7 @@ color:  #ff10afbd;
 .nav-links li a {
   font-size: 1.2rem;
   font-weight: 800;
-  color:  #242424;
+  color:  #27171F;
   text-decoration: none;
   align-items: center;
 }
@@ -319,7 +318,7 @@ color:  #ff10afbd;
   font-family: "Atma", system-ui;
   margin-left: auto;
   margin-right: auto;
-  color: #242424;
+  color: #27171F;
   text-align: center;
   padding-bottom: 5px;
   padding-top: 9px;
@@ -329,7 +328,7 @@ color:  #ff10afbd;
   text-align: justify;
   font-size: 1em;
   width: 70%;
-  color: #242424;
+  color: #27171F;
   margin: 0 auto;
   padding-top: 22px;
 }
@@ -339,7 +338,7 @@ color:  #ff10afbd;
   margin-top: 25px;
   text-align: center;
   padding-bottom: 2.6em;
-  color: #242424;
+  color: #27171F
 }
 .title {
   display: flex;
@@ -415,6 +414,8 @@ color:  #ff10afbd;
   border: 2px solid  #b6b4b4a0;
   background-color: #f8f8f8;
   font-family: system-ui;
+    color:  #27171F;
+
   }
   /* Estilo para cuando el campo de entrada está enfocado */
 .columna input:focus {
@@ -436,6 +437,7 @@ color:  #ff10afbd;
   background-color: #f8f8f8;
   font-family: system-ui;
   text-align: center;
+  color:  #27171F;
 }
 #opciones:hover{
   border-color: #aaa;
@@ -660,7 +662,7 @@ height: auto;
 .texto-donar .text-validation{
   font-family: system-ui;
   text-align: justify;
-  color: #242424;
+  color: #27171F;
   font-size: 1em;
   padding-bottom: 1em;
 }
@@ -845,7 +847,7 @@ height: auto;
 /*--formulario--*/
 .formulario-tarjeta {
   background: rgba(228, 220, 228, 0.801);
-  color: #242424;
+  color: #27171F;
   width: 90%;
   max-width: 600px;
   padding: 124px 30px 10px 30px;
@@ -871,7 +873,7 @@ height: auto;
 }
 .formulario-tarjeta input,
 .formulario-tarjeta select {
-  border: 3px solid #ff058f80;
+  border: 3px solid #2e014b85;
   font-size: 0.95em;
   height: 30px;
   width: 100%;
@@ -884,15 +886,12 @@ height: auto;
 }
 
 /*--para que las lineas del border de cada espacio a completar en el formulario cambien de color--*/
-.formulario-tarjeta input:hover,
-.formulario-tarjeta select:hover {
-  border: 3px solid #A03CC1;
-}
 .formulario-tarjeta input {
   margin-bottom: 7px;
 }
 .formulario-tarjeta input:focus,
 .formulario-tarjeta select:focus {
+  border-color: #ff058f;
   box-shadow: 0 0 8px #A03CC1;
   outline: none;
 }
@@ -924,7 +923,7 @@ height: auto;
   box-shadow: 0px 0px 10px #b6b4b4a0;
   font-size: 1.1em;
   color: white;
-  background: #252525a0;
+  background:  #27171F;
   font-weight: bold;
   padding: 0.4em;
   font-family: "Atma", system-ui;
@@ -934,8 +933,7 @@ height: auto;
   justify-content: center;
 }
 .formulario-tarjeta .Validar #validar:hover {
-  border: 3px solid #ffffff;
-  background: #ff058f80;
+  background:  #ff058f;
 }
 .formulario-tarjeta .Validar #validar:focus{
   box-shadow: 0 0 10px #252525a0;
@@ -1080,7 +1078,7 @@ article img{
     font-family: system-ui;
     font-size: 0.9em;
     width: 100%;
-    color: rgb(36, 36, 36);
+    color:  #27171F;
     line-height: 1.4; /* Espaciado de línea */
   }
   .texto-despedida{
@@ -1104,7 +1102,7 @@ article img{
     cursor: pointer;
   }
   .close-recaudacion:hover {
-    color:  rgb(36, 36, 36);
+    color:  #27171F;
     background-color: rgba(170, 168, 168, 0.512);
 }
 .close-recaudacion i::before {
@@ -1116,7 +1114,7 @@ article img{
 
 /*footer especial para la PAG VALIDAR DONATION*/
 .footer-validation {
-  background-color: rgba(72, 24, 102, 0.329);
+  background-color:  #C3A8D5;
   color: white;
   padding: 8px 0;
   height: 133px;
@@ -1151,7 +1149,7 @@ article img{
 .footer-bottom .derechos-autor{
   font-family: system-ui;
   text-align: center;
-  background-color:  rgba(46, 1, 75, 0.522);
+  background-color:  #2e014b85;
   padding: 6px 0;
 }
 /* Estilos específicos para dispositivos móviles */
@@ -1283,7 +1281,7 @@ article img{
 }
 .agradecimiento{
   width: 80%;
-  color: #242424;
+  color:  #27171F;
 }
 .agradecimiento .gracias{
   padding-top: 2em;
@@ -1346,7 +1344,7 @@ article img{
   font-family: system-ui;
   font-size: 1em;
   text-align: justify;
-  color: #242424;
+  color:  #27171F;
 }
 .gracias-dona .apoyo-link{
   color: #ff10afed;
@@ -1367,7 +1365,7 @@ article img{
   text-decoration: none;
 }
 .gracias-dona a:hover{
-  background-color:  #ff10afed;
+  background-color: #ff058f;
   color: white;
 }
 
@@ -1399,7 +1397,7 @@ article img{
 /*-- estilos de los footers de adopt y gracias--*/
 .footer {
   width: 100%;
-  background-color: rgba(72, 24, 102, 0.329);
+  background-color: #c3a8d5;
   color: white;
   font-family: system-ui;
   text-align: center;
@@ -1423,7 +1421,7 @@ article img{
   justify-content: center;
   align-items: center;
   text-align: center;
-  text-shadow: 2px 2px 3px #252525a0;
+  text-shadow: 2px 2px 5px #252525a0;
 }
 .logo, .contacto, .redes {
   width: 100%;
@@ -1441,7 +1439,7 @@ article img{
 .footer-copyright{
   width: 100%;
   padding: 8px;
-  background-color:  rgba(46, 1, 75, 0.522);
+  background-color: #2e014b85;
   position: absolute;
   text-align: center;
   box-sizing: border-box;
