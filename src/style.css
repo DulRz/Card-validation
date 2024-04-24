@@ -864,7 +864,7 @@ height: auto;
   font-family: "Atma", system-ui;
   font-weight: 650;
   display: block;
-  margin-bottom: 5px;
+  margin-bottom: 1px;
   font-size: 1em;
 }
 .formulario-tarjeta input,
@@ -873,7 +873,7 @@ height: auto;
   font-size: 0.95em;
   height: 30px;
   width: 100%;
-  padding: 1px 12px;
+  padding: 1px 10px;
   border-radius: 5px;
   cursor: pointer;
   font-family: system-ui;
@@ -911,15 +911,12 @@ height: auto;
   width: 2em;
   height: auto;
 }
-.Validar{
-  padding-top: 0.8em;
-}
 .formulario-tarjeta .Validar #validar {
   border: none;
   box-shadow: 0px 0px 10px #b6b4b4a0;
   font-size: 1.1em;
   color: white;
-  background:  #27171F;
+  background: #2e014b85;
   font-weight: bold;
   padding: 0.4em;
   font-family: "Atma", system-ui;
