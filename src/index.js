@@ -10,7 +10,7 @@ const cerrar = document.getElementById('cerrar');
 const errorMensaje = document.getElementById('errorMsj');
 const mensajeValido = document.getElementById('msjValido');
 
-//para validar que todos los campos se llenen antes de verificar o validar la tarjeta
+//validar que todos los campos se llenen antes de validar la tarjeta
 document.addEventListener('DOMContentLoaded', function() {
   const formulario = document.getElementById('formulario-tarjeta');
   const botonValidar = document.getElementById('validar');
@@ -52,12 +52,12 @@ document.getElementById('validar').addEventListener('click', function (event) {
   if (resultado === true){
   //si la tarjeta es válida debe mostrar el mensaje de verificación
     msj.innerHTML = "Card verified N°" + mask;
-    //se debe mostrar una alerta como ventana emergente
+    //mostrar una alerta como ventana emergente
     msjVal.classList.add('show');
     mensajeValido.style.display = 'block'; //mostrar mensaje de éxito
     errorMensaje.style.display =  'none'; //ocultar mensaje de error
 
-    //para redirigir a la pagina gracias
+    //redirigir a la pagina gracias
     cerrar.addEventListener('click', (event) =>  {
       msjVal.classList.remove('show');
       event.preventDefault();
@@ -66,12 +66,12 @@ document.getElementById('validar').addEventListener('click', function (event) {
 
   } else {
     // si la tarjeta es inválida mostrará este mensaje
-    msj.innerHTML ="There was an error with the payment. Please try again.";
+    msj.innerHTML ="There was an error with the payment. Please try again!";
     msjVal.classList.add('show');
     mensajeValido.style.display = 'none'; //mostrar mensaje de éxito
     errorMensaje.style.display =  'block'; //ocultar mensaje de error
 
-    // para cerrar la ventana emergente
+    // cerrar la ventana emergente
     const cerrar = document.getElementById('cerrar');
     cerrar.addEventListener('click', () =>  {
       msjVal.classList.remove('show');
@@ -81,13 +81,13 @@ document.getElementById('validar').addEventListener('click', function (event) {
 
 
 const tarjeta = document.querySelector('#tarjeta');
-//addEventListener para girar la tarjeta con un click
+//girar la tarjeta con un click
 tarjeta.addEventListener('click', () => {
   tarjeta.classList.toggle('active');
 });
 
 
-// addEventListener para abrir, botón abrir el formulario
+// botón abrir el formulario
 const btnAbrir = document.querySelector('#btnAbrir');
 const formulario = document.querySelector('#formulario-tarjeta');
 btnAbrir.addEventListener('click', () => {
@@ -97,12 +97,12 @@ btnAbrir.addEventListener('click', () => {
 
 
 //inputNumero
-//para reemplazar lo que se escribe en los input y también se copie en la tarjeta de gatito
+//reemplazar lo que se escribe en los input y también se copie en la tarjeta de gatito
 const numeroTarjeta = document.querySelector('#tarjeta .numero');
-//se accede al formulario, luego inputNumero y se reemplazan los valores
-//el addEventListener detecta cuando el usuario presiona y suelta la tecla y se ejecutará un evento
+//accede al formulario, luego inputNumero y se reemplazan los valores
+//addEventListener detecta cuando el usuario presiona y suelta la tecla y se ejecutará un evento
 formulario.inputNumero.addEventListener('keyup', (e) => {
-  //se crea el valorInput para q la informacion ingresada se guarde dentro de una variable
+  //creo el valorInput para q la informacion ingresada se guarde dentro de una variable
   const valorInput = e.target.value;
   //para eliminar los espacios se hace con replace las '' van vacias porque no quiero que lo reemplace con nada
   //para que se borren las letras tambien se hace el mismo paso con una expresion regular (/\D/g,'')
@@ -126,7 +126,7 @@ const nombreTarjeta = document.querySelector('#tarjeta .fullName');
 formulario.inputNombre.addEventListener('keyup', (e) => {
   const valorInput = e.target.value;
 
-  //para que detecte numeros y no se puedan escribir
+  //para que detecte números y no se puedan escribir
   formulario.inputNombre.value = valorInput.replace(/[0-9]/g, '');
   //para que se copien los valores en la tarjeta
   nombreTarjeta.textContent = valorInput;
