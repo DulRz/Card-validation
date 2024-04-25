@@ -1,5 +1,5 @@
 
-# DONATÓN -"Huellitas Felices" - Card Validation
+# DONATÓN "Huellitas Felices" - Card Validation
 
 ![LOGO](src/images/images-readme/portada.png)
 
@@ -113,11 +113,19 @@ Se comparte imágenes de las campañas y obras que se realizan con el dinero rec
 
 ## HISTORIAS DE USUARIO
 
-Se realizaron diseños con editores de imagen en canva para el del logo de la fundación, el de flyer de la campaña DONATÓN y de adopción.
+![HU 1](src/images/images-readme/HU 1.PNG)
 
 # 5. DISEÑO UI
 
-![LOGO](src/images/logo.png)
+Se realizaron diseños con editores de imagen en canva para el del logo de la fundación, el de flyer de la campaña DONATÓN y de adopción.
+
+![HU1](src/images/images-readme/HU%201.PNG)
+
+![HU2](src/images/images-readme/HU%202.PNG)
+
+![HU3](src/images/images-readme/HU%203.PNG)
+
+![HU4](src/images/images-readme/HU%204.PNG)
 
 [FLYER DE LA CAMPAÑA "HUELLITAS FELICES"](<https://raw.githubusercontent.com/DulRz/Card-validation/validation/src/images/flyer.png>)
 
@@ -197,7 +205,7 @@ Para ejecutar los test se debe ejecutar el siguiente comando:
 Semana 2:
 
 * Prototipos de baja y alta fidelidad.
-* Test de Usabilidad
+* Test de Usabilidad e historias de Usuario
 * Estructura de HTML de toda la web.
 
 Semana 3:
