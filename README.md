@@ -1,21 +1,25 @@
 
-# DONATÓN PetsFriends Wasi-Card Validation
+# DONATÓN -"Huellitas Felices" - Card Validation
+
+![LOGO](src/images/images-readme/portada.png)
 
 Para dirigirse a esta aplicación debe ingresar al siguiente link: <falta la página>
 
 # ÍNDICE
 
-* [1. Introduccion](#1-introducción)
-  * [1.1 Aplicacion del proyecto](#11-aplicación-del-proyecto)
+* [1. Introducción](#1-introducción)
+  * [1.1 Aplicación del proyecto](#11-aplicación-del-proyecto)
 * [2. Resumen del Proyecto](#2-resumen-del-proyecto)
 * [3. Experiencia de usuario](#3-experiencia-de-usuario)
-* [4. Diseño](#4-diseño)
-  * [4.1 Intefaz del usuario](#41-interfaz-del-usuario)
-    * [4.1.1 Prototipo de baja fidelidad](#411-prototipo-de-baja-fidelidad)
-    * [4.1.2 Prototipo de alta fidelidad](#412-prototipo-de-alta-fidelidad)
-  * [4.2 Paleta de colores](#42-paleta-de-colores)
-* [5. Planeacion del Proyecto](#5-planeación-del-proyecto)
-* [6. Autora](#6-autora)
+* [4. Diseño UX](#4-diseño-ux)
+  * [Historias de Usuario](#historias-de-usuario)
+* [5. Diseño UI](#5-diseño-ui)
+  * [5.1 Intefaz de usuario](#51-interfaz-de-usuario)
+    * [5.1.1 Prototipo de baja fidelidad](#511-prototipo-de-baja-fidelidad)
+    * [5.1.2 Prototipo de alta fidelidad](#512-prototipo-de-alta-fidelidad)
+  * [5.2 Paleta de colores](52-paleta-de-colores)
+* [6. Planeación del Proyecto](#6-planeación-del-proyecto)
+* [7. Autora](#7-autora)
 
 ***
 
@@ -88,29 +92,34 @@ La iniciativa se centra en generar una conexión emocional instantánea al prese
 
 ## Información y acción
 
-Nuestra plataforma proporciona información detallada sobre el proceso de adopción, cómo pueden hacer donaciones monetarias y cómo participar en eventos de recaudación de fondos. Queremos que nuestros usuarios se sientan capacitados para tomar medidas concretas para ayudar a los animales necesitados después de visitar nuestro sitio web.
+La plataforma proporciona información detallada sobre el proceso de adopción, cómo pueden hacer donaciones monetarias y cómo participar en eventos de recaudación de fondos.
+Quiero que los usuarios se sientan capacitados para tomar medidas concretas para ayudar a los animales necesitados después de visitar nuestro sitio web.
 
 ## Interacción y participación
 
-Invitamos a los usuarios a formar parte de nuestro equipo y a contribuir activamente a nuestra misión. Creemos que al unirnos y trabajar juntos, podemos marcar la diferencia en la vida de los animales necesitados y hacer del mundo un lugar mejor para ellos.
+Invitamos a los usuarios a formar parte de nuestro equipo y a contribuir activamente a nuestra misión. Creo que al unirnos y trabajar juntos, podemos marcar la diferencia en la vida de los animales necesitados y hacer del mundo un lugar mejor para ellos.
 
 ## Facilidad de uso y accesibilidad
 
-Nos comprometemos a ofrecer una experiencia de usuario fácil y accesible para todos. Nuestra interfaz ha sido diseñada pensando en la usabilidad, asegurando que los usuarios puedan navegar sin problemas por nuestro sitio web y encontrar la información que necesitan de manera rápida y sencilla.
+El objetivo es ofrecer una experiencia de usuario fácil y entendible. La interfaz ha sido diseñada pensando en la usabilidad, asegurando que los usuarios puedan navegar sin problemas por el sitio web y encontrar la información que necesitan de manera rápida y sencilla.
 
-Creemos que al enfocarnos en estos aspectos clave de la experiencia de usuario, podemos crear un espacio en línea que inspire a nuestros usuarios a unirse a nuestra misión de ayudar a los perros y gatos de la calle y hacer del mundo un lugar mejor para ellos.
+Creo que al enfocar estos aspectos clave de la experiencia de usuario, podemos crear un espacio en línea que los inspire a unirse a nuestra misión de ayudar, de rescatar animales de la calle y hacer del mundo un lugar mejor para ellos.
 
 ## Impacto de las donaciones
 
-También compartimos imágenes de las campañas y obras que se realizan con el dinero recaudado. Desde eventos de adopción hasta proyectos de esterilización y cuidado médico, mostramos visualmente cómo las donaciones de nuestros generosos colaboradores se traducen en acciones concretas que benefician a los animales y a nuestra comunidad en general. Queremos que nuestros usuarios vean el impacto directo de sus contribuciones y se sientan orgullosos de formar parte de nuestra causa.
+Se comparte imágenes de las campañas y obras que se realizan con el dinero recaudado. Desde eventos de adopción hasta proyectos de esterilización y cuidado médico, mostramos visualmente cómo las donaciones de nuestros generosos colaboradores se traducen en acciones concretas que benefician a los animales y a nuestra comunidad en general. Queremos que nuestros usuarios vean el impacto directo de sus contribuciones y se sientan orgullosos de formar parte de nuestra causa.
 
-# 4. DISEÑO
+# 4. DISEÑO UX
+
+## HISTORIAS DE USUARIO
 
 Se realizaron diseños con editores de imagen en canva para el del logo de la fundación, el de flyer de la campaña DONATÓN y de adopción.
 
+# 5. DISEÑO UI
+
 ![LOGO](src/images/logo.png)
 
-[FLYER DE LA CAMPAÑA](<https://raw.githubusercontent.com/DulRz/Card-validation/validation/src/images/flyer.png>)
+[FLYER DE LA CAMPAÑA "HUELLITAS FELICES"](<https://raw.githubusercontent.com/DulRz/Card-validation/validation/src/images/flyer.png>)
 
 ## FLYERS DE ADOPCIÓN
 
@@ -120,15 +129,15 @@ Se realizaron diseños con editores de imagen en canva para el del logo de la fu
 
 [FLYER 3](<https://raw.githubusercontent.com/DulRz/Card-validation/validation/src/images/adopt2.jpeg>)
 
-## 4.1 INTERFAZ DEL USUARIO
+## 5.1 INTERFAZ DE USUARIO
 
-### 4.1.1 PROTOTIPO DE BAJA FIDELIDAD
+### 5.1.1 PROTOTIPO DE BAJA FIDELIDAD
 
 Se ha realizado la maquetación de baja fidelidad teniendo en consideración que la interfaz debe ser muy sencilla para agilizar el proceso de donación. El diseño simula una página web real que incluye no solo la interfaz de donación (Donation), sino también otras secciones importantes como: Inicio (Home), Adopta (Adopt), Gracias y Recaudación.
 
 La página está diseñada con botones y texto guía que orientan a los usuarios, incluso si son nuevos. Estos elementos están estratégicamente ubicados para proporcionar una experiencia intuitiva y sin problemas, lo que permite a cualquier usuario comprender y utilizar la página de manera efectiva desde el primer momento.
 
-### 4.1.2 PROTOTIPO DE ALTA FIDELIDAD
+### 5.1.2 PROTOTIPO DE ALTA FIDELIDAD
 
 ![BIENVENIDA](src/images/images-readme/bienvenida.PNG)
 ![HOME](src/images/images-readme/home.PNG)
@@ -142,11 +151,13 @@ La página está diseñada con botones y texto guía que orientan a los usuarios
 ![RECAUDACIÓN1](src/images/images-readme/recaudación1.PNG)
 ![RECAUDACIÓN2](src/images/images-readme/recaudación2.PNG)
 
-## 4.2 PALETA DE COLORES
+## 5.2 PALETA DE COLORES
 
 ![PALETA](src/images/images-readme/COLORES.png)
 
-# 5. PLANEACIÓN DEL PROYECTO
+# 6. PLANEACIÓN DEL PROYECTO
+
+* Por ser el primer proyecto la organización se realizó de manera manual en un cuaderno donde se anotó por sprint lo siguiente:
 
 Semana 1:
 
@@ -197,6 +208,7 @@ Semana 3:
 
 Semana 4:
 
+* Correcciones y utimando detalles.
 * README.
 * Desplegar en GitHub Pages.
 
@@ -208,7 +220,7 @@ Este sitio web fue construido utilizando las siguientes tecnologías:
 * JavaScript para interactividad y actualizaciones dinámicas.
 * Módulos ES6 para organización de código modular
 
-# 6. AUTORA
+# 7. AUTORA
 
 [Nacdul V. Ramirez Zavala](<https://github.com/DulRz>)
 
