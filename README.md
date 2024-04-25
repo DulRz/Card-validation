@@ -78,9 +78,13 @@ Debes realizar un :fork_and_knife:
    `npm start` para arrancar el servidor web y dirígete a
    `http://localhost:5000` en tu navegador.
 
+***
+
 # 2. RESUMEN DEL PROYECTO
 
 La aplicación consta de cuatro vistas. En la primera, en modo pc se presenta un breve mensaje de bienvenida y al cerrar esa ventana podrás ver el flyer de la campaña de donación. Si ingresas de modo celular, el mensaje de bienvenida aparece debajo del flyer. La segunda, encontrarás un texto que incentiva a la adopción y a la no compra de mascotas, además se presenta un formulario para poder adoptar, el único requisito es llenar todos los campos y ser mayor de edad para que el envío de la información sea válida. Al dar click en el botón SEND te redigirá a la tercera vista donde se te agradece por considerar la posibilidad de adoptar, luego se presentan algunas mascotas disponibles en el albergue y en la parte final de la vista hay un breve párrafo y un botón que te invita a donar a la fundación. Al dar click en el botón DONATE, cuarta y última vista, se recalca cuán importante es para la fundación recaudar fondos de manea monetaria y también cualquier tipo de apoyo, ya sea con comida, ropa para nuestras mascotas, productos de limpieza, entre otros, para cuidar a nuestros animales en el albergue y para los que seguiremos rescatando a futuro. Para poder donar se debe llenar un formulario, todos los campos deben ser obligatoriamente llenados para poder validar la tarjeta. Si en caso tu tarjeta es inválida, retornará una mini ventana avisándote que hubo un error en el pago y al dar click en CLOSE, la página automáticamente se volverá a recargar. Por el contrario, si tu tarjeta es válida aparece otra mini ventana con el mensaje donde dice que la donación se realizó con éxito y al dar click en el botón CLOSE, aparecerá sobre esta vista, una ventana que cubre toda la página con imágenes y breves párrafos donde se muestra qué es lo que se hace con el dinero recaudado. Al terminar de leer esta sección, con el botón "X" podrás cerrar y la vista DONATE se volverá a recargar.
+
+***
 
 # 3. EXPERIENCIA DE USUARIO
 
@@ -109,15 +113,11 @@ Creo que al enfocar estos aspectos clave de la experiencia de usuario, podemos c
 
 Se comparte imágenes de las campañas y obras que se realizan con el dinero recaudado. Desde eventos de adopción hasta proyectos de esterilización y cuidado médico, mostramos visualmente cómo las donaciones de nuestros generosos colaboradores se traducen en acciones concretas que benefician a los animales y a nuestra comunidad en general. Queremos que nuestros usuarios vean el impacto directo de sus contribuciones y se sientan orgullosos de formar parte de nuestra causa.
 
+***
+
 # 4. DISEÑO UX
 
 ## HISTORIAS DE USUARIO
-
-![HU 1](src/images/images-readme/HU 1.PNG)
-
-# 5. DISEÑO UI
-
-Se realizaron diseños con editores de imagen en canva para el del logo de la fundación, el de flyer de la campaña DONATÓN y de adopción.
 
 ![HU1](src/images/images-readme/HU%201.PNG)
 
@@ -126,6 +126,14 @@ Se realizaron diseños con editores de imagen en canva para el del logo de la fu
 ![HU3](src/images/images-readme/HU%203.PNG)
 
 ![HU4](src/images/images-readme/HU%204.PNG)
+
+***
+
+# 5. DISEÑO UI
+
+Se realizaron diseños con editores de imagen en canva para el del logo de la fundación, el de flyer de la campaña DONATÓN y de adopción.
+
+![LOGO](src/images/logo.png)
 
 [FLYER DE LA CAMPAÑA "HUELLITAS FELICES"](<https://raw.githubusercontent.com/DulRz/Card-validation/validation/src/images/flyer.png>)
 
@@ -163,6 +171,8 @@ La página está diseñada con botones y texto guía que orientan a los usuarios
 
 ![PALETA](src/images/images-readme/COLORES.png)
 
+***
+
 # 6. PLANEACIÓN DEL PROYECTO
 
 * Por ser el primer proyecto la organización se realizó de manera manual en un cuaderno donde se anotó por sprint lo siguiente:
@@ -173,6 +183,7 @@ Semana 1:
 * Git: Control de versiones con git (init, clone, add, commit, status, push, pull, remote).
 * GitHub: Creación de cuenta y repos, configuración de llaves SSH.
 * Preparar la PC con los tips proporcionados.
+* Prototipo de baja fidelidad.
 
 ## EJECUCIÓN LOCAL
 
@@ -204,8 +215,8 @@ Para ejecutar los test se debe ejecutar el siguiente comando:
 
 Semana 2:
 
-* Prototipos de baja y alta fidelidad.
-* Test de Usabilidad e historias de Usuario
+* Prototipo de alta fidelidad.
+* Test de Usabilidad e historias de usuario.
 * Estructura de HTML de toda la web.
 
 Semana 3:
@@ -227,6 +238,8 @@ Este sitio web fue construido utilizando las siguientes tecnologías:
 * HTML5 y CSS3 para marcado y estilo.
 * JavaScript para interactividad y actualizaciones dinámicas.
 * Módulos ES6 para organización de código modular
+
+***
 
 # 7. AUTORA
 
