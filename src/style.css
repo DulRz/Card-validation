@@ -679,6 +679,7 @@ height: auto;
   /*-- por eso utilizamos el align porque debemos invertir el alineado centrado a horizontal--*/
   align-items: center;
   padding-top: 3.5em;
+  margin-bottom: 0;
 }
 .clearfix::after {
   content: "";
@@ -1145,6 +1146,7 @@ article img{
   background-color:  #2e014b85;
   padding: 6px 0;
 }
+
 /* Estilos específicos para dispositivos móviles */
 @media only screen and (max-width: 768px) {
  .main-validation{
@@ -1350,7 +1352,7 @@ article img{
 #donateSupplies,
 .gracias-dona a{
   background-color: #ff10afbd;
-  padding: 10px 14px;
+  padding: 10px 18px;
   color: whitesmoke;
   border: none;
   border-radius: 30px;
