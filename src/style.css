@@ -634,7 +634,7 @@ color:  #ff10afbd;
     z-index: 1;
   }
 .texto-donar {
-width: 40%;
+width: 31%;
 margin: 0 auto;
 float: left;
 padding: 4em 2.5em;
@@ -645,7 +645,7 @@ height: auto;
   position: absolute;
   top: 0;
   left: 0;
-  width: 40%;
+  width: 32%;
   height: 100%;
   background-color: #FFF2F8;
   background-size: auto 100%;
@@ -667,7 +667,7 @@ height: auto;
   padding-bottom: 1em;
 }
 .contenedor {
-  width: 60%;
+  width: 68%;
   max-width: 800px;
   /*--para centrar la página de manera horizontal se usa el margin auto --*/
   margin: 0 auto;
@@ -957,14 +957,15 @@ article img{
   background-color: #252525a0;
   align-items: center;
   justify-content: center;
-  position: fixed;
+  position: absolute;
   pointer-events: none;
   opacity: 0;
-  top:0;
-  left: 0;
   height: 100vh;
   width: 100vw;
   transition: opacity 0.3s ease;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .modal{
   background-color: #fff;
@@ -978,7 +979,6 @@ article img{
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%); /* Centra vertical y horizontalmente */
-  margin-left: 20%;
 }
 .modal h3{
   margin: 0;
@@ -1227,6 +1227,7 @@ article img{
   .container{
     height: 101vh;
     width: 101vw;
+    position: fixed;
   }
   .modal{
     margin: 0 auto;
@@ -1346,17 +1347,21 @@ article img{
   padding: 12px 0 15px 0;
   text-shadow: 2px 2px 4px #b6b4b4a0;
 }
+#donateSupplies,
 .gracias-dona a{
   background-color: #ff10afbd;
-  padding: 18px;
+  padding: 10px 14px;
   color: whitesmoke;
+  border: none;
   border-radius: 30px;
   font-family: "Atma", system-ui;
   font-size: 1.3em;
   font-weight: 900;
   margin-top: 1em;
   text-decoration: none;
+  cursor: pointer;
 }
+#donateSupplies:hover,
 .gracias-dona a:hover{
   background-color: #ff058f;
   color: white;
