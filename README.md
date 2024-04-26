@@ -3,7 +3,7 @@
 
 ![LOGO](src/images/images-readme/portada.png)
 
-Para dirigirse a esta aplicación debe ingresar al siguiente link: <falta la página>
+Para dirigirse a esta aplicación debe ingresar al siguiente link: <https://dulrz.github.io/Card-validation/src/index.html>
 
 # ÍNDICE
 
