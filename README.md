@@ -10,16 +10,16 @@ Para dirigirse a esta aplicación debe ingresar al siguiente link: <falta la pá
 * [1. Introducción](#1-introducción)
   * [1.1 Aplicación del proyecto](#11-aplicación-del-proyecto)
 * [2. Resumen del Proyecto](#2-resumen-del-proyecto)
-* [3. Experiencia de usuario](#3-experiencia-de-usuario)
-* [4. Diseño UX](#4-diseño-ux)
-  * [Historias de Usuario](#historias-de-usuario)
-* [5. Diseño UI](#5-diseño-ui)
-  * [5.1 Intefaz de usuario](#51-interfaz-de-usuario)
-    * [5.1.1 Prototipo de baja fidelidad](#511-prototipo-de-baja-fidelidad)
-    * [5.1.2 Prototipo de alta fidelidad](#512-prototipo-de-alta-fidelidad)
-  * [5.2 Paleta de colores](52-paleta-de-colores)
-* [6. Planeación del Proyecto](#6-planeación-del-proyecto)
-* [7. Autora](#7-autora)
+* [3. Diseño UX](#3-diseño-ux)
+  * [3.1 Experiencia de usuario](#31-experiencia-de-usuario)
+  * [3.2 Historias de Usuario](#32-historias-de-usuario)
+* [4. Diseño UI](#4-diseño-ui)
+  * [4.1 Intefaz de usuario](#41-interfaz-de-usuario)
+    * [4.1.1 Prototipo de baja fidelidad](#411-prototipo-de-baja-fidelidad)
+    * [4.1.2 Prototipo de alta fidelidad](#412-prototipo-de-alta-fidelidad)
+  * [4.2 Paleta de colores](#42-paleta-de-colores)
+* [5. Planeación del Proyecto](#5-planeación-del-proyecto)
+* [6. Autora](#6-autora)
 
 ***
 
@@ -86,7 +86,9 @@ La aplicación consta de cuatro vistas. En la primera, en modo pc se presenta un
 
 ***
 
-# 3. EXPERIENCIA DE USUARIO
+# 3. DISEÑO UX
+
+## 3.1 EXPERIENCIA DE USUARIO
 
 Bienvenido a DONATÓN "Huellitas Felices", una campaña dedicada a la adopción y **recaudación de fondos** para ayudar a perros y gatos de la calle. Nuestro objetivo es ofrecer una experiencia de usuario conmovedora y satisfactoria que inspire a la acción y el apoyo a nuestra noble causa. A continuación, destacamos cómo buscamos involucrar a nuestros usuarios:
 
@@ -113,11 +115,7 @@ Creo que al enfocar estos aspectos clave de la experiencia de usuario, podemos c
 
 Se comparte imágenes de las campañas y obras que se realizan con el dinero recaudado. Desde eventos de adopción hasta proyectos de esterilización y cuidado médico, mostramos visualmente cómo las donaciones de nuestros generosos colaboradores se traducen en acciones concretas que benefician a los animales y a nuestra comunidad en general. Queremos que nuestros usuarios vean el impacto directo de sus contribuciones y se sientan orgullosos de formar parte de nuestra causa.
 
-***
-
-# 4. DISEÑO UX
-
-## HISTORIAS DE USUARIO
+## 3.2 HISTORIAS DE USUARIO
 
 ![HU1](src/images/images-readme/HU%201.PNG)
 
@@ -129,7 +127,7 @@ Se comparte imágenes de las campañas y obras que se realizan con el dinero rec
 
 ***
 
-# 5. DISEÑO UI
+# 4. DISEÑO UI
 
 Se realizaron diseños con editores de imagen en canva para el del logo de la fundación, el de flyer de la campaña DONATÓN y de adopción.
 
@@ -145,15 +143,15 @@ Se realizaron diseños con editores de imagen en canva para el del logo de la fu
 
 [FLYER 3](<https://raw.githubusercontent.com/DulRz/Card-validation/validation/src/images/adopt2.jpeg>)
 
-## 5.1 INTERFAZ DE USUARIO
+## 4.1 INTERFAZ DE USUARIO
 
-### 5.1.1 PROTOTIPO DE BAJA FIDELIDAD
+### 4.1.1 PROTOTIPO DE BAJA FIDELIDAD
 
 Se ha realizado la maquetación de baja fidelidad teniendo en consideración que la interfaz debe ser muy sencilla para agilizar el proceso de donación. El diseño simula una página web real que incluye no solo la interfaz de donación (Donation), sino también otras secciones importantes como: Inicio (Home), Adopta (Adopt), Gracias y Recaudación.
 
 La página está diseñada con botones y texto guía que orientan a los usuarios, incluso si son nuevos. Estos elementos están estratégicamente ubicados para proporcionar una experiencia intuitiva y sin problemas, lo que permite a cualquier usuario comprender y utilizar la página de manera efectiva desde el primer momento.
 
-### 5.1.2 PROTOTIPO DE ALTA FIDELIDAD
+### 4.1.2 PROTOTIPO DE ALTA FIDELIDAD
 
 ![BIENVENIDA](src/images/images-readme/bienvenida.PNG)
 ![HOME](src/images/images-readme/home.PNG)
@@ -166,14 +164,15 @@ La página está diseñada con botones y texto guía que orientan a los usuarios
 ![VALID](src/images/images-readme/tarjeta-verificada.PNG)
 ![RECAUDACIÓN1](src/images/images-readme/recaudación1.PNG)
 ![RECAUDACIÓN2](src/images/images-readme/recaudación2.PNG)
+![INSUMOS](src/images/images-readme/dona-insumos.PNG)
 
-## 5.2 PALETA DE COLORES
+## 4.2 PALETA DE COLORES
 
 ![PALETA](src/images/images-readme/COLORES.png)
 
 ***
 
-# 6. PLANEACIÓN DEL PROYECTO
+# 5. PLANEACIÓN DEL PROYECTO
 
 * Por ser el primer proyecto la organización se realizó de manera manual en un cuaderno donde se anotó por sprint lo siguiente:
 
@@ -241,7 +240,7 @@ Este sitio web fue construido utilizando las siguientes tecnologías:
 
 ***
 
-# 7. AUTORA
+# 6. AUTORA
 
 [Nacdul V. Ramirez Zavala](<https://github.com/DulRz>)
 
