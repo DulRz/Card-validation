@@ -211,6 +211,18 @@ document.getElementById('closeButton').addEventListener('click', () => {
   location.reload()//recargar la pagina
 });
 
+document.addEventListener("DOMContentLoaded", function() {
+  //abrir el modal
+  document.getElementById("donateSupplies").addEventListener('click', () => {
+    document.getElementById("modalSupplies").style.display = "block";
+  });
+  //cerrar el modal
+  document.getElementById("closeModal").addEventListener('click', () => {
+    document.getElementById("modalSupplies").style.display = "none";
+  });
+});
+
+
 console.log(validator);
 
 
