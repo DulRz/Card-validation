@@ -57,7 +57,7 @@ document.getElementById('validar').addEventListener('click', function (event) {
     mensajeValido.style.display = 'block'; //mostrar mensaje de éxito
     errorMensaje.style.display =  'none'; //ocultar mensaje de error
 
-    //redirigir a la pagina gracias
+    //redirigir a recaudación
     cerrar.addEventListener('click', (event) =>  {
       msjVal.classList.remove('show');
       event.preventDefault();
@@ -208,7 +208,7 @@ ccvInput.addEventListener('input', function() {
 //ocultar la seccion recaudacion y se recargue la página
 document.getElementById('closeButton').addEventListener('click', () => {
   document.querySelector('.recaudacion').style.display = 'none';
-  location.reload()//recargar la pagina
+  location.reload();//recargar la pagina
 });
 
 document.addEventListener("DOMContentLoaded", function() {
@@ -219,6 +219,7 @@ document.addEventListener("DOMContentLoaded", function() {
   //cerrar el modal
   document.getElementById("closeModal").addEventListener('click', () => {
     document.getElementById("modalSupplies").style.display = "none";
+    location.reload();
   });
 });
 
